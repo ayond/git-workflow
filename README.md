@@ -68,9 +68,10 @@ first redo step2 if there are new commits in master,then:
 
 ## 3 Name your branch
 
-if the branch is only locally , it does not matter that much , but if you push your branch to remote, it's better we name it more structured ,combine the developer namme and feature name is a good option .
+if the branch is only locally , it does not matter that much , but if you push your branch to remote, it's better we name it more structured ,combine the developer name and feature name is one option .
 
-example : jason-featurename  
+example : 
+          jason-featurename  
 
           jason/featurename (will have directory structure)
 
