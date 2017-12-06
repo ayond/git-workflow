@@ -70,7 +70,9 @@ first redo step2 if there are new commits in master,then:
 
 if the branch is only locally , it does not matter that much , but if you push your branch to remote, it's better we name it more structured ,combine the developer name and feature name is one option .
 
-example : jason-featurename or jason/featurename (will have directory structure)
+example:
+    jason-featurename
+    jason/featurename (will have directory structure)
 
 ## 4 Git tools:
 
