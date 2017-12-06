@@ -62,7 +62,7 @@ You could face conflict, go fix the conflict , then
     git rebase --continue
 
 
-### step 3  if you want to merge your changes to master and push to remote 
+### Step 3  if you want to merge your changes to master and push to remote 
 
 first redo step2 if there are new commits in master,then:
 
