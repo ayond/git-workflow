@@ -66,7 +66,14 @@ first redo step2 if there are new commits in master,then:
     git merge feature-branch  --no-ff (non fast forward way , always generate a merge commit)    
     git push
 
+## 3 Name your branch
 
-## 3 Git tools:
+if the branch is only locally , it does not matter that much , but if you push your branch to remote, it's better we name it more structured ,combine the developer namme and feature name is a good option .
+
+example : jason-featurename  
+
+          jason/featurename (will have directory structure)
+
+## 4 Git tools:
 
 I recommend use sourceTree or gitKraken with git CLI together , so it’s more easy to see the commit tree ,and resolve conflicts , but it’s totally fine if you would like to stick to git CLI
