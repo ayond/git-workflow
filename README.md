@@ -25,7 +25,7 @@ if you have not commit anything  ,use git stash and pop
 
 if you have commit your changes (1 or more )
 
-    git pull rebase (it actually do : git fetch , git rebase ) . 
+    git pull --rebase (it actually do : git fetch , git rebase ) . 
 
 
 ## 2  Work on your feature branch
@@ -50,7 +50,7 @@ Working  on you staff ….
 
 You could face conflict, go fix the conflict , then 
 
-    git rebase - -continue
+    git rebase --continue
 
 
 ### 3  If  you want to merge your changes to master and push
