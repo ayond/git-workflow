@@ -34,8 +34,9 @@ Every one work on your own “feature” branch, and after you finish your work 
         
 ### 1 Start point: You are in master branch now       
 
-    git branch feature-branch (create a feature branch from latest master)
-    git checkout feature-branch. 
+    git pull (get latest code from remote master)
+    git branch feature-branch  (create a feature branch from master)
+    git checkout feature-branch.    
 
 Working  on you staff ….
 
@@ -49,7 +50,7 @@ Working  on you staff ….
 
 You could face conflict, go fix the conflict , then 
 
-git rebase - -continue
+    git rebase - -continue
 
 
 ### 3  If  you want to merge your changes to master and push(redo step2 if there are new commits in master)      
