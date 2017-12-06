@@ -32,16 +32,16 @@ if you have commit your changes (1 or more )
 
 Every one work on your own “feature” branch, and after you finish your work ,or you want to share your code within the team,merge it to master      
         
-### 1 Start point: You are in master branch now       
+### step 1 Start point: You are in master branch now       
 
     git pull (get latest code from remote master)
     git branch feature-branch  (create a feature branch from master)
     git checkout feature-branch.    
 
-Working  on you staff ….
+Now working  on you stuff ….
 
 
-### 2 If you want to get latest code from master and use it in your branch 
+### step 2 If you want to get latest code from master and use it in your branch 
 
 you could need this in 2 cases :
 1 If master have new commits ,and you want to have that code 
@@ -58,7 +58,7 @@ You could face conflict, go fix the conflict , then
     git rebase --continue
 
 
-### 3  If  you want to merge your changes to master and push
+### step 3  If  you want to merge your changes to master and push
 
 first redo step2 if there are new commits in master,then:
 
