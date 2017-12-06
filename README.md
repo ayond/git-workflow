@@ -2,6 +2,10 @@
 
 Git team work flow ,
 
+## 0 Git tools:
+
+I recommend use sourceTree or gitKraken with git CLI together , so it’s more easy to see the commit tree ,and resolve conflicts , but it’s totally fine if you would like to stick to git CLI
+
 
 ## 1 Work on master branch 
 
@@ -73,6 +77,4 @@ if the branch is only locally , it does not matter that much , but if you push y
     jason-featurename
     jason/featurename (will have directory structure)
 
-## 4 Git tools:
 
-I recommend use sourceTree or gitKraken with git CLI together , so it’s more easy to see the commit tree ,and resolve conflicts , but it’s totally fine if you would like to stick to git CLI
