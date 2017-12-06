@@ -3,7 +3,7 @@
 Git team work flow ,
 
 
-1 Work on master branch 
+##1 Work on master branch 
 
 If you think your changes do not deserve creating a branch , so you decide to work on master branch directly , for example some hotfix  or small quick feature . In this case  if you have done some changes on local  master , and there are new commits other people did on remote master before you push your changes to remote. Here is the options:
 
@@ -22,11 +22,11 @@ If you think your changes do not deserve creating a branch , so you decide to wo
       git pull rebase (git fetch , git rebase ) . 
 
 
-2  Work on your feature branch
+##2  Work on your feature branch
 
        Every one work on your own “feature” branch, and after you finish your work ,or you want to share your code within the team,merge it to master      
         
-        1 Start point: You are in master branch now       
+        ###1 Start point: You are in master branch now       
 
         git branch feature-branch (create a feature branch from latest master)
         git checkout feature-branch. 
@@ -34,7 +34,7 @@ If you think your changes do not deserve creating a branch , so you decide to wo
         Working  on you staff ….
 
 
-       2 If you want to get latest code from master and use it in your branch 
+       ###2 If you want to get latest code from master and use it in your branch 
 
         git checkout master
         git pull 
@@ -46,12 +46,12 @@ If you think your changes do not deserve creating a branch , so you decide to wo
         git rebase - -continue
 
        
-        3  If  you want to merge your changes to master and push(redo step2 if there are new commits in master)      
+        ###3  If  you want to merge your changes to master and push(redo step2 if there are new commits in master)      
         git checkout master 
         git merge feature-branch  --no-ff (non fast forward way , always generate a merge commit)    
         git push
 
 
-3 Git tools:
+##3 Git tools:
 
     I recommend use sourceTree or gitKraken with git CLI together , so it’s more easy to see the commit tree ,and resolve conflicts , but it’s totally fine if you would like to stick to git CLI
