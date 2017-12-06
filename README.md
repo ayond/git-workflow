@@ -10,7 +10,7 @@ If you think your changes do not deserve creating a branch , so you decide to wo
   
 ### Practice  not recommended:  
 
-    git pull (which will do :git fetch, git merge) , 
+    git pull (it actually do :git fetch, git merge) , 
 git will generate a merge master commit history which are useless and not look mess  
 
 ### Recommended  Option 1 : 
