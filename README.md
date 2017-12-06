@@ -53,7 +53,10 @@ You could face conflict, go fix the conflict , then
     git rebase - -continue
 
 
-### 3  If  you want to merge your changes to master and push(redo step2 if there are new commits in master)      
+### 3  If  you want to merge your changes to master and push
+
+first redo step2 if there are new commits in master,then:
+
     git checkout master 
     git merge feature-branch  --no-ff (non fast forward way , always generate a merge commit)    
     git push
