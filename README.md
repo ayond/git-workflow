@@ -43,10 +43,15 @@ Working  on you staff ….
 
 ### 2 If you want to get latest code from master and use it in your branch 
 
+you could need this in 2 cases :
+1 If master have new commits ,and you want to have that code 
+2 you want to merge your change to master but remote master have commits ) 
+
     git checkout master
     git pull 
     git checkout feature-branch  (Make sure you are on your feature branch to to “rebase master”!!!! )
-    git rebase master.  (1 If master have new commits ,and you want to have that code 2 you want to merge your change to master but remote master have commits )  , 
+    git rebase master. 
+
 
 You could face conflict, go fix the conflict , then 
 
